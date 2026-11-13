@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea pokeAPI</title>
+    <link rel="stylesheet" href="pokeAPI.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Pokemones</h1>
+        <p>Pon su nombre o ID</p>
+
+        <form id="formulario">
+            <input type="text" id="pokemon" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+        <div id="resultado">
+            <h2 id="nombre"></h2>
+            <p id="id"></p>
+            <img id="imagen" alt="Pokemon">
+        </div>
+
+        <div id="descripcion"></div>
+        <div id="evoluciones"></div>
+    </div>
+
+    <script src="pokeAPI.js"></script>
+</body>
+</html>
